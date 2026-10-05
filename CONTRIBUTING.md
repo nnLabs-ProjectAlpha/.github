@@ -18,7 +18,7 @@ Read `orgdocs` before your first contribution. It covers onboarding, agreements 
    Commits are authored under your own name and the email on your GitHub account. You are responsible for every line you commit, whatever tools helped you write it. Don't add AI tool co-author trailers or "generated with" lines; CI rejects them.
 4. Open a pull request using the template. Link the issue or task it addresses.
 5. CI (build and secret scan) must pass, and a code owner must approve. Resolve every review conversation.
-6. A maintainer merges. History on `main` is linear (squash or rebase).
+6. A maintainer squash-merges. The commit on `main` is credited to you and signed by GitHub, and history stays linear.
 
 Direct pushes and force pushes to `main` are blocked.
 
